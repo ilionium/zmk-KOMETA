@@ -46,21 +46,25 @@
         cha {
             bindings = <&kp LBKT>;
             key-positions = <8 7>;
+            layers = <0>;
         };
 
         znak {
             bindings = <&kp RBKT>;
             key-positions = <8 9>;
+            layers = <0>;
         };
 
         ue {
             bindings = <&kp SQT>;
             key-positions = <33 34>;
+            layers = <0>;
         };
 
         yo {
             bindings = <&kp GRAVE>;
-            key-positions = <5 4>;
+            key-positions = <4 3>;
+            layers = <0>;
         };
     };
 
