@@ -80,10 +80,10 @@
 
         base {
             bindings = <
-&trans         &kp Q           &kp W       &kp E        &kp R         &kp T      &kp Y        &kp U         &kp I        &kp O       &kp P               &trans
-&trans         &hr LEFT_GUI A  &hr LALT S  &hr LCTRL D  &hr LSHIFT F  &kp G      &kp H        &hr RSHIFT J  &hr RCTRL K  &hr RALT L  &hr RIGHT_GUI SEMI  &kp SQT
-&kp LG(SPACE)  &lt 7 Z         &kp X       &kp C        &kp V         &kp B      &kp N        &kp M         &kp COMMA    &kp DOT     &lt 7 FSLH          &kp LG(SPACE)
-                                           &lt 3 ESC    &lt 1 SPACE   &lt 2 TAB  &lt 5 ENTER  &lt 4 BSPC    &lt 6 DEL
+&trans  &kp Q           &kp W       &kp E        &kp R         &kp T      &kp Y        &kp U         &kp I        &kp O       &kp P               &trans
+&trans  &hr LEFT_GUI A  &hr LALT S  &hr LCTRL D  &hr LSHIFT F  &kp G      &kp H        &hr RSHIFT J  &hr RCTRL K  &hr RALT L  &hr RIGHT_GUI SEMI  &trans
+&trans  &lt 7 Z         &kp X       &kp C        &kp V         &kp B      &kp N        &kp M         &kp COMMA    &kp DOT     &lt 7 FSLH          &trans
+                                    &lt 3 ESC    &lt 1 SPACE   &lt 2 TAB  &lt 5 ENTER  &lt 4 BSPC    &lt 6 DEL
             >;
         };
 
@@ -116,19 +116,19 @@
 
         num {
             bindings = <
-&trans  &kp FSLH  &kp N7  &kp N8     &kp N9  &kp MINUS  &none  &kp LPAR          &kp RPAR           &kp LBRC  &kp RBRC  &trans
-&trans  &kp STAR  &kp N4  &kp N5     &kp N6  &kp PLUS   &none  &kp RSHFT         &kp RCTRL          &kp RALT  &kp RGUI  &trans
-&trans  &none     &kp N1  &kp N2     &kp N3  &kp EQUAL  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LT    &kp GT    &trans
-                          &kp COMMA  &kp N0  &none      &none  &trans            &none
+&trans  &kp FSLH  &kp N7  &kp N8     &kp N9  &kp MINUS  &none  &kp LPAR   &kp LBKT   &kp LBRC  &kp LT    &trans
+&trans  &kp STAR  &kp N4  &kp N5     &kp N6  &kp PLUS   &none  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+&trans  &none     &kp N1  &kp N2     &kp N3  &kp EQUAL  &none  &kp RPAR   &kp RBKT   &kp RBRC  &kp GT    &trans
+                          &kp COMMA  &kp N0  &none      &none  &trans     &none
             >;
         };
 
         sym {
             bindings = <
-&trans  &kp FSLH  &kp AMPS  &kp STAR   &kp UNDER  &kp SQT    &none   &kp LPAR          &kp RPAR           &kp LBRC  &kp RBRC  &trans
-&trans  &kp BSLH  &kp DLLR  &kp PRCNT  &kp CARET  &kp SEMI   &none   &kp RSHFT         &kp RCTRL          &kp RALT  &kp RGUI  &trans
-&trans  &kp PIPE  &kp EXCL  &kp AT     &kp HASH   &kp GRAVE  &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LT    &kp GT    &trans
-                            &kp LPAR   &kp RPAR   &none      &trans  &none             &none
+&trans  &kp FSLH  &kp AMPS  &kp STAR   &kp UNDER  &kp SQT    &none   &kp LPAR   &kp LBKT   &kp LBRC  &kp LT    &trans
+&trans  &kp BSLH  &kp DLLR  &kp PRCNT  &kp CARET  &kp SEMI   &none   &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+&trans  &kp PIPE  &kp EXCL  &kp AT     &kp HASH   &kp GRAVE  &none   &kp RPAR   &kp RBKT   &kp RBRC  &kp GT    &trans
+                            &kp LPAR   &kp RPAR   &none      &trans  &none      &none
             >;
         };
 
